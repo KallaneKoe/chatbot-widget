@@ -46,14 +46,14 @@ onMounted(() => {
 <template>
   <div class="flex movieList cursor-grab overflow-x-scroll mb-2">
     <div
-      class="inline-block bg-white shadow-md rounded-lg m-1 flex-shrink-0 select-none h-[188px] w-[256px]"
+      class="inline-block bg-white shadow-md rounded-lg m-1 flex-shrink-0 select-none h-[200px] w-[256px]"
     >
       <img
         src="/assets/images/movie_poster.png"
         class="h-[136px] w-fit rounded-t-lg"
       />
       <h1 class="text-md font-extrabold m-2">Nier:Automata</h1>
-      <div class="text-[12px] text-gray-500 m-2 flex items-center gap-1">
+      <div class="w-28px h-12px text-gray-500 m-2 flex items-center gap-1">
         <span>2024</span>
         <i class="fa-regular fa-circle text-[4px] text-[#EFEFEF]"></i>
         <span>T16</span>
@@ -65,14 +65,33 @@ onMounted(() => {
     </div>
 
     <div
-      class="inline-block bg-white shadow-md rounded-lg m-1 flex-shrink-0 select-none h-[188px] w-[256px]"
+      class="inline-block bg-white shadow-md rounded-lg m-1 flex-shrink-0 select-none h-[200px] w-[256px]"
     >
       <img
         src="/assets/images/movie_poster.png"
         class="h-[136px] w-fit rounded-t-lg"
       />
       <h1 class="text-md font-extrabold m-2">Nier:Automata</h1>
-      <div class="text-[12px] text-gray-500 m-2 flex items-center gap-1">
+      <div class="w-28px h-12px text-gray-500 m-2 flex items-center gap-1">
+        <span>2024</span>
+        <i class="fa-regular fa-circle text-[4px] text-[#EFEFEF]"></i>
+        <span>T16</span>
+        <i class="fa-regular fa-circle text-[4px] text-[#EFEFEF]"></i>
+        <span>12/12</span>
+        <i class="fa-regular fa-circle text-[4px] text-[#EFEFEF]"></i>
+        <span>Nhật Bản</span>
+      </div>
+    </div>
+
+    <div
+      class="inline-block bg-white shadow-md rounded-lg m-1 flex-shrink-0 select-none h-[200px] w-[256px]"
+    >
+      <img
+        src="/assets/images/movie_poster.png"
+        class="h-[136px] w-fit rounded-t-lg"
+      />
+      <h1 class="text-md font-extrabold m-2">Nier:Automata</h1>
+      <div class="w-28px h-12px text-gray-500 m-2 flex items-center gap-1">
         <span>2024</span>
         <i class="fa-regular fa-circle text-[4px] text-[#EFEFEF]"></i>
         <span>T16</span>

@@ -41,6 +41,8 @@
   >
     <p>{{ item }}</p>
   </div>
+  <MovieList/>
+  <RecommendList/>
 
   <span class="flex flex-row justify-between flex-wrap h-fit">
     <p
@@ -89,6 +91,7 @@ import { useMessage } from "~/stores/messages";
 import { useFormatDateTime } from "../../../composables/useFormatDateTime";
 import ChatSuggestion from "../chat-suggestion.vue";
 import {useReview} from '~/stores/review';
+
 
 import { marked } from 'marked'
 const reviewStore = useReview()
